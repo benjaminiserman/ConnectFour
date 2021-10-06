@@ -43,7 +43,7 @@ public class Game
 			int input = -1;
 			if (_load && _loadCounter < _loadString.Length)
 			{
-				Console.WriteLine("Replaying...");
+				Console.WriteLine("Replaying... (press enter)");
 				try
 				{
 					if (ConnectLibrary.TryDec(_loadString[_loadCounter].ToString(), out input)) Board.InputMove(input, _auth, Round);

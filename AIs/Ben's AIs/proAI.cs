@@ -63,7 +63,7 @@ public class ProAI : AI
 				
 				if (board.CheckVictor(x, y, teamCheck)) // block possible losses
 				{
-					value += 1000;
+					value += 2000;
 				}				
 
 				if (x < board.Columns - (board.Connect - 1)) // no 2 lines
