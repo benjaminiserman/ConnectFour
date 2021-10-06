@@ -19,3 +19,6 @@ Want to make your own AI?
   
   the code uses reflection to create the AI pool.
   Any class deriving from the abstract class AI will be automatically added for your convenience.
+
+Want to play right now?
+go to: https://replit.com/@winggar/ConnectFour and press Start at the top!
