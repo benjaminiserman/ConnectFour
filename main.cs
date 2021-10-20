@@ -192,7 +192,7 @@ public class MainClass
 	{
 		Console.WriteLine(text);
 		string input = "";
-		while (input != "y" && input != "n") input = Console.ReadLine();
+		while (input != "y" && input != "n") input = Console.ReadLine().Trim().ToLower();
 		if (input == "y") return true;
 		else return false;
 	}
