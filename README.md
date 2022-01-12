@@ -1,4 +1,6 @@
 # ConnectFour
+![Imgur](https://i.imgur.com/LsT3LXs.png)
+
 an ASCII ConnectFour game that runs in the console
 
 Features:
